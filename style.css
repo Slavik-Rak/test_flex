@@ -1,0 +1,39 @@
+body{
+    margin: 0;;
+}
+div {
+    box-sizing: border-box;
+    border: 1px solid rgb(2, 2, 2);
+}
+
+.wrap_parent {
+    padding: 10px;
+    width: 800px;
+    margin: auto;
+}
+
+.one, .five {
+    height: 100px;
+}
+
+.two {
+    width: 200px;
+    height: 350px;
+}
+.one, .wrap_menu_post, .thre{
+    margin-bottom: 10px;
+}
+.wrap_menu_post {
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.thre, .four{
+    height: 170px;
+    margin-left: 10px;
+}
+.wrap_post{
+    border: 0px;
+    width: 578px;
+}
